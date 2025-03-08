@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Prodavnica</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-content">
+            <div class="icon">
+                <a href="#">LOGO</a>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Pretraži">
+                <button><i class='bx bx-search' ></i></button>
+            </div>
+            <div class="nav-links">
+                <ul class="nav-list">
+                    <li class="link"><a href="#"><i class='bx bx-heart'></i></a></li>
+                    <li class="link"><a href="#"><i class='bx bx-basket'></i></a></li>
+                    <li class="link"><a href="#"><i class='bx bx-user'></i></a></li>
+                </ul>
+            </div>
+        </div>        
+    </nav>
+
+    <header>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#">Odeća</a></li>
+                <li><a href="#">Obuća</a></li>
+                <li><a href="#">Satovi</a></li>
+                <li><a href="#">Nakit</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <div class="hero-tekst">
+                <h1>Dobrodošli na Web Store<span>!</span></h1>
+                <h2>Vaša destinacija za kvalitetne proizvode po najboljim cenama<span>!</span></h2>
+            </div>
+            <button class="hero-button">Pogledaj ponude <i class='bx bx-down-arrow-alt' ></i></button>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="container-content">
+            <h1><i class='bx bxs-rocket'></i></h1>
+            <p>Poruči danas, a tvoj paket stiže u roku od 24-48h! Nudimo ekspresnu dostavu širom zemlje.</p>
+        </div>
+        <div class="container-content">
+            <h1><i class='bx bxs-lock' ></i></h1>
+            <p>Tvoja sigurnost nam je prioritet! Svi podaci su zaštićeni, a plaćanje je sigurno i pouzdano.</p>
+        </div>
+        <div class="container-content">
+            <h1><i class='bx bxs-credit-card-front' ></i></h1>
+            <p>Plati karticom, kešom pri dostavi ili putem bankovnog transfera – biraj opciju koja ti najviše odgovara!</p>
+        </div>
+        <div class="container-content">
+            <h1><i class='bx bxs-star' ></i></h1>
+            <p>Svi naši proizvodi su pažljivo birani i testirani kako bismo ti obezbedili samo najbolje.</p>
+        </div>
+    </section>
+
+    <section class="izdvojeno">
+        <h1><span>NOVO</span> U PONUDI!</h1>
+        <div class="izdvojeno-grid">
+
+            <div class="grid-item">
+                <img src="./images/items/20335_l_a-black-shirt-with-white-text-on-it.webp" alt="item">
+                <div class="ime">
+                   <h2>Muška Majica</h2> 
+                   <p>NOVO</p>
+                </div>                             
+                <div class="cena">
+                    <h2>1.500 RSD</h2>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/items/8da2b168-2664-494c-a0af-b34b2dd86bce.33efafa12a9542a9de70392fba82f5d9.webp" alt="item">
+                <div class="ime">
+                    <h2>Muški Kaput</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>6.000 RSD</h3>
+                        <h2>3.000 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-50%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/shoes/black-high-heels-with-a-glitter-insert.jpg" alt="item">
+                <div class="ime">
+                    <h2>Ženske Cipele</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                        <h2>2.700 RSD</h2>                 
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/shoes/vn000d3h-y28_6.webp" alt="item">
+                <div class="ime">
+                    <h2>Muške Patike</h2> 
+                    <p>NOVO</p>
+                 </div>                             
+                <div class="cena">
+                    <h2>3.200 RSD</h2>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/shoes/111386_227216_1.avif" alt="item">
+                <div class="ime">
+                    <h2>Ženske Papuče</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>2.000 RSD</h3>
+                        <h2>1.000 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-50%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+        </div>
+        <a href="#" class="izdvojenoBtn">Pogledaj sve<i class='bx bx-right-arrow-alt' ></i></a>
+    </section>
+
+    <section class="odeca">
+        <div class="odeca-header">
+            <h1>Odeća | <span>BEST SELLERS</span></h1>           
+        </div>
+        <div class="odeca-content">
+            <ul class="odeca-list">
+                <li><a href="#">Majice</a></li>
+                <li><a href="#">Košulje</a></li>
+                <li><a href="#">Džemperi</a></li>
+                <li><a href="#">Dukserice</a></li>
+                <li><a href="#">Pantalone</a></li>
+                <li><a href="#">Farmerice</a></li>
+                <li><a href="#">Jakne I Kaputi</a></li>
+            </ul>
+            <a href="#">Pogledaj sve <i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <div class="odeca-grid">
+
+            <div class="grid-item">
+                <img src="./images/items/20335_l_a-black-shirt-with-white-text-on-it.webp" alt="item">
+                <div class="ime">
+                   <h2>Muška Majica</h2> 
+                   <p>NOVO</p>
+                </div>                             
+                <div class="cena">
+                    <h2>1.500 RSD</h2>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/items/953848-12327413.avif" alt="item">
+                <div class="ime">
+                    <h2>Muška Košulja</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>3.000 RSD</h3>
+                        <h2>2.400 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-20%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/items/e5e5c7d3c5ed0003df394dcc5ed2f218.jpg_720x720q80.jpg" alt="item">
+                <div class="ime">
+                    <h2>Ženski Duks <br>sa kapuljačom</h2> 
+                 </div>                             
+                <div class="cena">
+                    <h2>2.700 RSD</h2>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/items/womens_cooler_heads_vintage_graphic_v_neck_tee_funny_drinking_t_shirt_solid_threads_2000x.jpg" alt="item">
+                <div class="ime">
+                    <h2>Ženska Majica</h2> 
+                 </div>                              
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>1.000 RSD</h3>
+                        <h2>700 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-30%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/items/8da2b168-2664-494c-a0af-b34b2dd86bce.33efafa12a9542a9de70392fba82f5d9.webp" alt="item">
+                <div class="ime">
+                    <h2>Muški Kaput</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>6.000 RSD</h3>
+                        <h2>3.000 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-50%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="obuca">
+        <div class="obuca-header">
+            <h1>Obuća | <span>BEST SELLERS</span></h1>           
+        </div>
+        <div class="obuca-content">
+            <ul class="obuca-list">
+                <li><a href="#">Patike</a></li>
+                <li><a href="#">Papuče</a></li>
+                <li><a href="#">Čizme</a></li>
+                <li><a href="#">Cipele</a></li>
+                <li><a href="#">Cipele</a></li>
+            </ul>
+            <a href="#">Pogledaj sve <i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <div class="obuca-grid">
+            <div class="grid-item">
+                <img src="./images/shoes/25E11P1881068999000_100.jpg" alt="item">
+                <div class="ime">
+                   <h2>Muške Patike</h2> 
+                </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>5.000 RSD</h3>
+                        <h2>3.250 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-35%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/shoes/black-high-heels-with-a-glitter-insert.jpg" alt="item">
+                <div class="ime">
+                    <h2>Ženske Cipele</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                        <h2>2.700 RSD</h2>                 
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/shoes/vn000d3h-y28_6.webp" alt="item">
+                <div class="ime">
+                    <h2>Muške Patike</h2> 
+                    <p>NOVO</p>
+                 </div>                             
+                <div class="cena">
+                    <h2>3.200 RSD</h2>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/shoes/60247534.webp" alt="item">
+                <div class="ime">
+                    <h2>Muške Cipele</h2> 
+                 </div>                              
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>4.000 RSD</h3>
+                        <h2>3.400 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-15%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/shoes/111386_227216_1.avif" alt="item">
+                <div class="ime">
+                    <h2>Ženske Papuče</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>2.000 RSD</h3>
+                        <h2>1.000 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-50%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="satovi">
+        <div class="satovi-header">
+            <h1>Satovi | <span>BEST SELLERS</span></h1>           
+        </div>
+        <div class="satovi-content">
+            <ul class="satovi-list">
+                <li><a href="#">Elegantni</a></li>
+                <li><a href="#">Sportski</a></li>
+                <li><a href="#">Digitalni</a></li>
+                <li><a href="#">Pametni</a></li>
+            </ul>
+            <a href="#">Pogledaj sve <i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <div class="satovi-grid">
+            <div class="grid-item">
+                <img src="./images/watches/longines-elegant-collection-41mm-p2204-6866_image.jpg" alt="item">
+                <div class="ime">
+                   <h2>Elegantan Sat</h2> 
+                </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>17.000 RSD</h3>
+                        <h2>14.450 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-15%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/watches/17351144_1.webp" alt="item">
+                <div class="ime">
+                    <h2>Elegantan Sat</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                        <h2>20.000 RSD</h2>                 
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/watches/1BA125DEA09DD0E-001-galaxy-watch-fe-black-front.jpg" alt="item">
+                <div class="ime">
+                    <h2>Pametni Sat</h2> 
+                 </div>                             
+                <div class="cena">
+                    <h2>14.000 RSD</h2>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/watches/1_acbbe43b-aa7f-4946-9081-d7d7fdf780bb.webp" alt="item">
+                <div class="ime">
+                    <h2>Digitalni Sat</h2> 
+                 </div>                              
+                <div class="cena">
+                    <h2>12.000 RSD</h2>                   
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/watches/CURREN-Fashion-Casual-Quartz-Watch-Men-Sports-Watches-Waterproof-Watch-Brand-Clock-Men-Wristwatch8178.jpg" alt="item">
+                <div class="ime">
+                    <h2>Sportski Sat</h2>
+                 </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>9.000 RSD</h3>
+                        <h2>7.200 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-20%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nakit">
+        <div class="nakit-header">
+            <h1>Nakit | <span>BEST SELLERS</span></h1>           
+        </div>
+        <div class="nakit-content">
+            <ul class="nakit-list">
+                <li><a href="#">Narukvice</a></li>
+                <li><a href="#">Lančići</a></li>
+                <li><a href="#">Minđuše</a></li>
+                <li><a href="#">Prstenje</a></li>
+            </ul>
+            <a href="#">Pogledaj sve <i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <div class="nakit-grid">
+            <div class="grid-item">
+                <img src="./images/jewelry/20-54-308.webp" alt="item">
+                <div class="ime">
+                   <h2>Zlatni Prsten</h2>
+                   <p>NOVO</p> 
+                </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>32.000 RSD</h3>
+                        <h2>28.800 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-10%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/jewelry/Sterling-Silver-Hoop-Earring-15mm.webp" alt="item">
+                <div class="ime">
+                    <h2>Srebrne Minđuše</h2>
+                    <p>NOVO</p> 
+                 </div>                             
+                <div class="cena">
+                        <h2>15.000 RSD</h2>                 
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/jewelry/2-carat-dangling-round-diamond-drop-earrings-for-women-by-luxurman-14k-gold_mainwh.jpg" alt="item">
+                <div class="ime">
+                    <h2>Dijamantske Minđuše</h2> 
+                 </div>                             
+                <div class="cena">
+                    <h2>115.000 RSD</h2>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/jewelry/5mm_Diamond_Cut_Franco_Chain_White_Gold_Hanging.webp" alt="item">
+                <div class="ime">
+                    <h2>Dijamantski Lančić</h2> 
+                 </div>                              
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>130.000 RSD</h3>
+                        <h2>104.000 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-20%</h2>
+                    </div>                  
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/jewelry/engrvaed-gold-bar-barcelet.webp" alt="item">
+                <div class="ime">
+                    <h2>Zlatna Narukvica</h2>
+                 </div>                             
+                <div class="cena">
+                    <div class="promenaCene">
+                        <h3>25.000 RSD</h3>
+                        <h2>12.500 RSD</h2>
+                    </div>                    
+                    <div class="popust">
+                        <h2>-50%</h2>
+                    </div>
+                </div>
+                <div class="order">
+                    <button class="orderBtn">Naruči <i class='bx bxs-basket' ></i></button>
+                    <button class="favoriteBtn"><i class='bx bxs-heart' ></i></button>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="novosti">
+        <div class="novosti-grid">
+            <div class="novosti-content">
+                <h1>Na korak ispred svih<span>!</span></h1>
+                <p>Prijavite se na <span>WebStore Novosti</span> i budite među prvima koji će saznati o najnovijim proizvodima, ekskluzivnim ponudama i važnim promenama u našoj ponudi. Ne propustite priliku da budete u toku sa svim novitetima!</p>
+            </div>
+            <div class="novosti-prijava">
+                <input type="email" placeholder="Unesite svoju E-mail adresu . . .">
+                <button>PRIJAVI SE <i class='bx bx-right-arrow-alt' ></i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="left">
+                <div class="icon">
+                    <a href="#">LOGO</a>
+                </div>
+                <p>WebStore je moderna i pouzdana online prodavnica specijalizovana za odeću, obuću i aksesoare. Naša misija je da kupcima ponudimo kvalitetne i trendi proizvode uz jednostavnu i sigurnu kupovinu. Posvećeni smo brzini isporuke, odličnoj korisničkoj podršci i maksimalnom zadovoljstvu kupaca. Uz WebStore, moda je samo jedan klik od vas!</p>
+                <div class="social-links">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="footer-links">
+                    <h2>Popularni Linkovi:</h2>
+                    <ul>
+                        <li><a href="#">Odeća</a></li>
+                        <li><a href="#">Obuća</a></li>
+                        <li><a href="#">Satovi</a></li>
+                        <li><a href="#">Nakit</a></li>
+                    </ul>
+                </div>
+                <div class="about-links">
+                    <h2>Drugi Linkovi:</h2>
+                    <ul>
+                        <li><a href="#">Privatnost podataka</a></li>
+                        <li><a href="#">Uslovi korišćenja</a></li>
+                        <li><a href="#">WebStore Partneri</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <p class="copyright">Copyright &copy; 2025 Aleksandar Đorđević , All Rights Reserved</p>
+    <script src="scripts.js"></script>
+</body>
+</html>
